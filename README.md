@@ -21,6 +21,9 @@ Sorting: Sort data in ascending and descending order for each column.
 
 File Type Validation: Ensure that only CSV files can be uploaded
 
+![CSV_ReaderINdex](https://github.com/shrijit01/Csv-Reader/assets/79890217/01302942-aeba-472d-a971-e14ed78c3582)
+
+
 Setup
 
 Follow these steps to set up the project on your local system:
@@ -31,7 +34,7 @@ git clone https://github.com/shrijit_01/Csv_Reader.git
 
 Install Dependencies: Navigate to the project directory and install the required dependencies:
 
-cd csv-data-viewer
+cd Csv Reader
 npm install
 
 Start the Application: Run the application using the following command:
