@@ -34,6 +34,7 @@ Sorting: Sort data in ascending and descending order for each column.
 
 File Type Validation: Ensure that only CSV files can be uploaded
 
+#Home Page User Interface
 ![CSV_ReaderINdex](https://github.com/shrijit01/Csv-Reader/assets/79890217/01302942-aeba-472d-a971-e14ed78c3582)
 
 
