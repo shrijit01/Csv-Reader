@@ -37,6 +37,9 @@ File Type Validation: Ensure that only CSV files can be uploaded
 #Home Page User Interface
 ![CSV_ReaderINdex](https://github.com/shrijit01/Csv-Reader/assets/79890217/01302942-aeba-472d-a971-e14ed78c3582)
 
+File view Page User Interface
+![View](https://github.com/shrijit01/Csv-Reader/assets/79890217/66268b74-95b9-414c-b1e9-d137fc759609)
+
 
 Setup
 
