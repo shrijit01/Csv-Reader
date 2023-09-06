@@ -1,4 +1,9 @@
 CSV Reader
+
+
+![Favicon](https://github.com/shrijit01/Csv-Reader/assets/79890217/a1230ccd-cf35-41bb-8870-f69bcd77ec88)
+
+
 This project allows you to upload CSV files, view their contents in a table format, and perform various operations on the data. It's designed to be a scalable and user-friendly tool for working with CSV data.
 
 Features
