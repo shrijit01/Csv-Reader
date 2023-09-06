@@ -30,7 +30,7 @@ Follow these steps to set up the project on your local system:
 
 Clone the Repository: Clone this repository to your local machine using the following command:
 
-git clone https://github.com/shrijit_01/Csv_Reader.git
+git clone 🥇 [https://github.com/shrijit_01/Csv_Reader.git](https://github.com/shrijit01/Csv-Reader)
 
 Install Dependencies: Navigate to the project directory and install the required dependencies:
 
