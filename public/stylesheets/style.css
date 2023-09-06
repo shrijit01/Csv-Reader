@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+#main{
+  position: relative;
+  padding: 12px;
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+
+/* NAVBAR CSS  */
+#nav{
+  display: flex;
+  height: 15%;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #333  ;
+}
+
+#nav>span{
+  color:#d1d1d1 ;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* FORM CONTAINER CSS  */
+#form_container{
+  position: relative;
+  padding: 8px;
+  top: 50%;
+  left: 50%;
+  height: 70%;
+  width: 40%;
+  border-radius: 20px;
+  position: absolute;
+  background-color: #f4f3f3;
+  transform: translate(-50%,-40%);
+}
+
+
+#form_container>form{
+  display: flexbox;
+  padding: 16px 26px;
+  border-style: dashed;
+  border-color: #333;
+}
+
+
+/* FILE UPLOAD DIV CSS  */
+#file_upload{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(46, 46, 46, 0.306);
+}
+
+
+/* UPLOAD FILE BUTTON CSS  */
+#upload_btn{
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  margin-left: 25%;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(27, 157, 27);
+}
+
+
+/* RECENT UPLOADED FILE CSS */
+#recent{
+  margin-top: 10px;
+  color: #333;
+}
+
+/* FILES CONTINER CSS  */
+#files{
+  overflow-y: scroll;
+  height: 75%;
+  width: 100%;
+}
+
+#files::-webkit-scrollbar {
+  display: none;
+}
+
+
+#files>ul{
+  height: 100%;
+  list-style-type: none;
+}
+
+
+#ul>li{
+  display: flex;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  padding: 18px 16px;
+  border-radius: 10px;
+  margin-bottom: 5px; 
+  background-color: #e4e4e4;
+  justify-content: space-between;
+}
+
+/* DELETE BUTTON CSS  */
+.delete_btn>i{
+  font-size: 20px;
+  color: rgba(161, 9, 9, 0.861);
+}
+
+/* LIST ITEM ON HOVER CSS  */
+#ul>li:hover{
+  background-color: #f0eeee;
+  border-left: 3px solid rgb(20, 58, 142);
+}
+
+
+.file_link{
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* View file PAGE  css */
+
+/* BACK TO MAIN PAGE ICON CSS  */
+#back>i{
+  color: #333;
+  font-size: 40px;
+}
+
+#back>i:hover{
+  color: #007bff;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+/* SEARCH BAR DIV CSS  */
+#search{
+  height: 80px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* SEARCH INPUT CSS */
+#search>input{
+  width: 30%;
+  border: none;
+  height: 50px;
+  font-size: 15px;
+  margin-left: 32%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 5px 8px  #ccc;
+}
+
+/* TABLE CSS  */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+td{
+  font-weight: 600;
+  font-size: 15px;
+}
+td:hover{
+  background-color: #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 900;
+}
+
+th:hover{
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* SPORT LINK CSS  */
+.sort-link {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+
+
+#g_chart{
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 27%;
+  cursor: pointer;
+  padding: 10px 12px;
+  background-color: #262d9b;
+}
+
+
+#piechart_3d{
+  position: sticky;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: rgba(87, 87, 87, 0.162);
+}

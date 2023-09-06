@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= filename %>
+    </title>
+    <!-- icon library cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <!-- google chart library cdn  -->
+    <!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
+    <style>
+        .order-inactive span {
+            visibility: hidden;
+        }
+
+        .order-inactive:hover span {
+            visibility: visible;
+        }
+
+        .order-active span {
+            visibility: visible;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+            <h1 style="color: aliceblue;">
+                <%= filename %>
+            </h1>
+        </div>
+        <!-- <div id="piechart_3d" class="hidden"></div> -->
+        <div id="search">
+            <a id="back" href="/"><i class="ri-arrow-left-circle-line"></i></a>
+            <input type="text" id="searchInput" placeholder="Search by Column data">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <% headers.forEach(function (header) { %>
+                        <th class="order">
+                            <%= header %>
+                        </th>
+                        <% }); %>
+                </tr>
+            </thead>
+            <tbody>
+                <% data.forEach(function (row) { %>
+                    <tr>
+                        <% headers.forEach(function (header) { %>
+                            <td>
+                                <%= row[header] %>
+                            </td>
+                            <% }); %>
+                    </tr>
+                    <% }); %>
+            </tbody>
+        </table>
+    </div>
+    <!-- google chart library js  -->
+    <!-- <script type="text/javascript">
+        google.charts.load("current", { packages: ["corechart"] });
+        google.charts.setOnLoadCallback(drawChart);
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['headers', 'Hours per Day'],
+                ['Work', 11],
+                ['Eat', 2],
+                ['Commute', 2],
+                ['Watch TV', 2],
+                ['Sleep', 7]
+            ]);
+
+
+            var options = {
+                title: '<%= filename %>',
+                is3D: true,
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+            chart.draw(data, options);
+        }
+    </script> -->
+
+    <!-- main js file  -->
+    <script src="/javascripts/script.js"></script>
+    <!-- sorting js for sorting the table  -->
+    <script src="/javascripts/sorting.js"></script>
+</body>
+</html>
